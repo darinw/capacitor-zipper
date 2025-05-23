@@ -1,0 +1,55 @@
+{
+  "name": "capacitor-zipper",
+  "version": "7.0.0",
+  "description": "Zip plugin",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Darin Wolyniec",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.0.0"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "printWidth": 200,
+    "eslint array-element-newline": "never"
+  },
+  "files": [
+    "dist/",
+    "ios/",
+    "android/",
+    "CapacitorZip.podspec"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darinw/capacitor-zipper"
+  },
+  "bugs": {
+    "url": "https://github.com/darinw/capacitor-zipper/issues"
+  }
+}
