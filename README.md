@@ -1,6 +1,6 @@
 # capacitor-zipper
 
-Zip Plugin
+Zip Plugin supporting capacitor 7+. This was created from [`capacitor-zip`](<[#zip](https://github.com/triniwiz/capacitor-zip)>)
 
 ## Install
 
@@ -13,9 +13,9 @@ npx cap sync
 
 <docgen-index>
 
-* [`zip(...)`](#zip)
-* [`unZip(...)`](#unzip)
-* [Interfaces](#interfaces)
+- [`zip(...)`](#zip)
+- [`unZip(...)`](#unzip)
+- [Interfaces](#interfaces)
 
 </docgen-index>
 
@@ -33,8 +33,7 @@ zip(options: ZipOptions, progress?: any) => void
 | **`options`**  | <code><a href="#zipoptions">ZipOptions</a></code> |
 | **`progress`** | <code>any</code>                                  |
 
---------------------
-
+---
 
 ### unZip(...)
 
@@ -47,11 +46,9 @@ unZip(options: UnZipOptions, progress?: any) => void
 | **`options`**  | <code><a href="#unzipoptions">UnZipOptions</a></code> |
 | **`progress`** | <code>any</code>                                      |
 
---------------------
-
+---
 
 ### Interfaces
-
 
 #### ZipOptions
 
@@ -61,7 +58,6 @@ unZip(options: UnZipOptions, progress?: any) => void
 | **`destination`** | <code>string</code>  |
 | **`keepParent`**  | <code>boolean</code> |
 | **`password`**    | <code>string</code>  |
-
 
 #### UnZipOptions
 
