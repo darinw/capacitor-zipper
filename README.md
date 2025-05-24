@@ -1,32 +1,19 @@
-# Capacitor Zip
+# capacitor-zipper
 
-## Installation
+Zip Plugin
 
-- `npm i capacitor-zipper`
+## Install
 
-## Usage
-
-```ts
-import { Zip } from "capacitor-zipper";
-const zip = new Zip();
-
-await zip.zip(
-  {
-    source: source,
-    destination: destination,
-    keepParent: true, // Optional default true
-    password: "password", // Optional
-  },
-  (progress) => {}
-);
-
-await zip.unZip(
-  {
-    source: source,
-    destination: destination,
-    overwrite: true, // Optional default true
-    password: "password", // Optional
-  },
-  (progress) => {}
-);
+```bash
+npm install capacitor-zipper
+npx cap sync
 ```
+
+## API
+
+<docgen-index></docgen-index>
+
+<docgen-api>
+<!-- run docgen to generate docs from the source -->
+<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+</docgen-api>
