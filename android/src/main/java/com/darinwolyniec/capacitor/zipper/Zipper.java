@@ -1,4 +1,4 @@
-package com.capacitor.capacitor.zipper;
+package com.darinwolyniec.capacitor.zipper;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.PluginCall;
